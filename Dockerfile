@@ -10,5 +10,4 @@ RUN chmod +x /pluto.sh
 # Definicja punktu montowania wolumenu
 VOLUME /logi
 
-# Definicja punktu wejścia i uruchomienie skryptu pluto.sh przy starcie kontenera
 CMD ["/pluto.sh"]
